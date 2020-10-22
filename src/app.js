@@ -37,7 +37,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
-        message: 'You can get help bro!',
+        message: 'Millions of locations can be looked up by city or region name, ZIP code, IP address, or even using latitude and longitude coordinates!',
         name: 'Braath1'
     });
 });
